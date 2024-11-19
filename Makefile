@@ -1,4 +1,4 @@
-UBUNTU_VERSION := 20.04
+UBUNTU_VERSION := 24.04
 
 build:
 	docker build --build-arg UBUNTU_VERSION=$(UBUNTU_VERSION) -t lte-scanner-hackrf .
